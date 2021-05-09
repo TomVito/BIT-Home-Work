@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(223, 219, 219);
+  background-color: rgb(231, 227, 227);
   font-family: "Special Elite", cursive;
   margin-left: 5%;
   margin-right: 5%;
@@ -58,4 +58,5 @@ img.rounded {
 }
 footer {
     text-align: center;
+    padding-top: 50px;
 }
