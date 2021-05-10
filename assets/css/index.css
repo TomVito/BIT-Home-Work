@@ -1,8 +1,11 @@
 body {
-  background-color: rgb(231, 227, 227);
   font-family: "Special Elite", cursive;
   margin-left: 5%;
   margin-right: 5%;
+}
+#background {
+  background-color: rgb(233, 233, 233);
+  padding: 20px;
 }
 h1 {
   text-align: center;
@@ -56,7 +59,11 @@ img.rounded {
 .years {
     font-weight: bold;
 }
-footer {
+#wiki_p {
     text-align: center;
-    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer {
+  font-style: italic;
+  padding-top: 100px;
 }
