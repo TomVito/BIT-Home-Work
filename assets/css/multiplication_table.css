@@ -1,0 +1,22 @@
+table {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 250px;
+  margin: auto;
+}
+td {
+  border: 1px solid black;
+}
+th {
+  font-weight: normal;
+}
+.middle {
+  background-color: rgb(253, 253, 131);
+  font-weight: bold;
+}
+.xy {
+  border: 0px;
+  background-color: rgb(253, 253, 131);
+  font-weight: bold;
+}
