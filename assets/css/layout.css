@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(230, 241, 255);
+}
+img {
+  width: 40px;
+}
+.food {
+  text-align: center;
+  padding-top: 50px;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.boxes {
+  margin-top: 50px;
+}
+.box {
+  width: 406px;
+  margin: 10px;
+  float: left;
+  padding: 10px;
+  border: 1px dotted grey;
+  border-radius: 5px;
+  background-color: rgb(200, 218, 241);
+  box-sizing: border-box;
+}
