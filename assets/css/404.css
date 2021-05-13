@@ -1,0 +1,42 @@
+body {
+  background-image: url(../img/404back.jpg);
+  background-size: cover;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+}
+.container {
+  text-align: center;
+  max-width: 1280px;
+  width: auto;
+  margin: auto;
+}
+.wrapper {
+  display: inline-block;
+}
+h1 {
+  font-size: 200px;
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0;
+}
+.buttons {
+  margin: 10px;
+  float: left;
+  padding: 10px;
+  font-size: 20px;
+  list-style-type: none;
+  border: 3px solid white;
+  border-radius: 50px;
+  margin-bottom: 25px;
+}
+.social {
+
+}
+a,
+a:hover,
+a:active,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
