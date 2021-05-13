@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  background-color: rgb(196, 202, 105);
+  background-image: url(../img/callme.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: left;
+}
+h1 {
+  text-align: center;
+}
+.form_contacts {
+    line-height: 2;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/css/kontaktai.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontaktai</title>
+  </head>
+  <body>
+    <h1 style="color: rgb(255, 251, 2)">
+      shopE <img src="assets/img/shopelogo.png" alt="shopE" width="80" height="60" />
+    </h1>
+    <h2>Mūsų kontaktai:</h2>
+    <a href="tel:+37069382943">Mobilus</a>
+    <div>
+      <a id="El.Paštas" href="mailto:t.vitonis@gmail.com">El. Paštas</a>
+    </div>
+    <div>
+      <a href="https://www.facebook.com/t.vitonis/" target="_blank">Facebook</a>
+    </div>
+    <a
+      href="https://www.google.com/maps/place/Kaunas+Castle/@54.8987755,23.8858756,301m/data=!3m1!1e3!4m5!3m4!1s0x46e72205aa4de41f:0x7f361f52f2ba980b!8m2!3d54.898919!4d23.8854803"
+      target="_blank"
+      >Kur mus rasti</a
+    >
+    <form action="/action_page.php" method="get">
+      <div class="form_contacts">
+        <h3>Arba palikite savo ir mes su Jumis susisieksime!</h3>
+        <label for="name">Vardas:</label>
+        <input type="text" id="name" name="text" />
+      </div>
+      <div class="form_contacts">
+        <label for="surname">Pavardė:</label>
+        <input type="text" id="surname" name="text" />
+      </div>
+      <div class="form_contacts">
+        <label for="city">Miestas:</label>
+        <input type="text" id="city" name="text" />
+      </div>
+      <div class="form_contacts">
+        <label for="tel">Telefonas:</label>
+        <input type="tel" id="tel" name="tel" />
+      </div>
+      <div class="form_contacts">
+        <label for="email">El.Paštas:</label>
+        <input type="email" id="email" name="email" required value="@" />
+      </div>
+      <div class="form_contacts_textarea">
+        <input type="submit" value="Pateikti" />
+      </div>
+      <h3>Parašykite ką apie mus galvojate:</h3>
+      <div class="form_textarea">
+        <textarea
+          name="message"
+          id="message"
+          rows="10"
+          cols="30"
+          placeholder="Jūsų tekstas"
+        ></textarea>
+      </div>
+    </form>
+    <form action="/action_page.php" method="get">
+      <div class="form_contacts_textarea">
+        <input type="submit" value="Pateikti" />
+      </div>
+    </form>
+  </body>
+</html>

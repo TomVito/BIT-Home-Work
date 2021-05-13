@@ -1,0 +1,70 @@
+body {
+  font-family: "Special Elite", cursive;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#background {
+  background-color: rgb(233, 233, 233);
+  padding: 20px;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  font-size: 42px;
+}
+h2 {
+  text-align: center;
+  font-size: 28px;
+}
+h3 {
+  text-align: center;
+  font-size: 20px;
+}
+.main_p {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(199, 194, 194);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 330px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.image_cropper {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(199, 194, 194);
+  border-radius: 5px;
+}
+#photo_p {
+    text-align: center;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(199, 194, 194);
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: lightgrey;
+}
+#biography_p {
+    text-align: left;
+}
+.years {
+    font-weight: bold;
+}
+#wiki_p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+footer {
+  font-style: italic;
+  padding-top: 100px;
+}
