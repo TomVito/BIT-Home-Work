@@ -1,0 +1,23 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1140px;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 16px;
+  color: grey;
+}
+input {
+  background-color: #f3f3f3;
+}
+textarea {
+  background-color: #f3f3f3;
+}
+.submit {
+    color: white;
+    background-color: black
+}
