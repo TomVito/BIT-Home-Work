@@ -1,0 +1,51 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+h2 {
+  font-size: 18px;
+}
+.main-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.img {
+  width: 100%;
+}
+.img-download {
+  width: 36px;
+  float: right;
+  margin-top: -35px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 10px 0 rgb(0 0 0 / 15%);
+  background: white;
+  border-radius: 5px;
+}
+.card-description {
+  padding: 20px;
+  line-height: 1.7;
+}
+.title {
+  font-size: 16px;
+}
+.description {
+  font-size: 12px;
+  color: grey;
+}
+.download-button {
+  font-size: 24px;
+  background-color: rgb(192, 49, 56);
+  border-radius: 5px;
+  border: solid 0px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
