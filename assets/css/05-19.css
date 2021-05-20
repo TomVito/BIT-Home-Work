@@ -9,6 +9,7 @@ h2 {
   margin: 0 auto;
 }
 .img {
+  border-radius: 5px;
   width: 100%;
 }
 .img-download {
