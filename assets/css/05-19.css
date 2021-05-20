@@ -5,7 +5,7 @@ h2 {
   font-size: 18px;
 }
 .main-container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 .img {
