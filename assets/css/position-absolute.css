@@ -17,6 +17,7 @@
 .card {
   width: 50%;
 }
+/* iconas geriau sujungti i viena div ir uzdeti absolute ant jo*/
 .icon_camera {
   position: absolute;
   background: #00d054;
@@ -45,7 +46,7 @@
   color: white;
   font-size: 30px;
 }
-.icon_camera {
+.icon_camera i {
   color: white;
   font-size: 30px;
 }
