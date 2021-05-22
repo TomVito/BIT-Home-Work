@@ -1,0 +1,56 @@
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.card_image {
+  position: relative;
+}
+.img {
+  width: 100%;
+}
+.card a {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+}
+.card {
+  width: 50%;
+}
+.icon_camera {
+  position: absolute;
+  background: #00d054;
+  width: 30px;
+  height: 30px;
+  left: 10px;
+  bottom: 15px;
+}
+.icon_play {
+  position: absolute;
+  background: #00d054;
+  width: 30px;
+  height: 30px;
+  left: 50px;
+  bottom: 15px;
+}
+.icon_text {
+  position: absolute;
+  background: #00d054;
+  width: 122px;
+  height: 30px;
+  left: 90px;
+  bottom: 15px;
+}
+.icon_play i {
+  color: white;
+  font-size: 30px;
+}
+.icon_camera {
+  color: white;
+  font-size: 30px;
+}
+span {
+  padding-left: 2px;
+  color: white;
+  font-size: 20px;
+}
