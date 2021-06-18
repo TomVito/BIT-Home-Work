@@ -6,6 +6,9 @@ $(document).ready(function () {
     dots: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    fade: true,
+    speed: 500,
+    cssEase: "linear",
   });
   $(".slider2").slick({
     infinite: true,
