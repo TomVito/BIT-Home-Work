@@ -1,0 +1,23 @@
+body {
+  background: grey;
+}
+h1 {
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: white;
+}
+.slider1 {
+  width: 50%;
+  margin: 0 auto;
+}
+.slider2 {
+  width: 75%;
+  margin: 0 auto;
+}
